@@ -1,0 +1,7 @@
+After creating the plot_sort_time_using_sorted_z function, which created sorted arrays to be 'sorted' by various algorithim, we observed that insertionsort has the best time complexity as seen in the graph. MergeSort is a bit worse, but is still good, and quicksort performed the worst on sorted array/special input.
+This happens due to the actual functionality of the sorts. 
+
+InsertionSort simply compares to values and is way way faster in general.
+Quicksort is a divide and conquer algorithim and has no acknowledgement of any special input or anything of that sort.
+
+As a result, on sorted arrays, insertionsort performs best and quicksort performs worst.
